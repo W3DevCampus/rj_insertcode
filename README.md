@@ -10,3 +10,5 @@ How to install :
 - Go to Moodle > Site administration > Plugins > Install plugin
 - Select Plugin type : TinyMCE HTML editor / Plugin (tinymce)
 Then, follow instructions on Moodle.
+
+/!\ Look at the file rj_insertcode/tinymce/rj_insertcode.html and modify the line 34 by your tinymce version /!\
