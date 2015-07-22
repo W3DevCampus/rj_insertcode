@@ -253,7 +253,6 @@ var RJ_InsertCodeDialogue =
 
 		// request the selection list
 		var xmlhttp = new XMLHttpRequest();
-		console.log(urlPerso +'/rj_get_highlighted_code.php');
 		xmlhttp.open('POST', urlPerso + '/rj_get_lang_select.php', false);
 		xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 		xmlhttp.send(urlParams);
